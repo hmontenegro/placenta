@@ -26,7 +26,7 @@ Fetch sequence data and metadata
 ```
 conda activate placenta
 mkdir metadata
-pysradb metadata --db  --detailed --expand --saveto metadata/SRP141397.metadata
+pysradb metadata --detailed --expand --saveto metadata/SRP141397.metadata SRP141397
 
 #this is reentrant - very cool
 mkdir -p raw
